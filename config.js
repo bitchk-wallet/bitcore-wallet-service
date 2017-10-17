@@ -52,10 +52,18 @@ var config = {
             },
         },
         ven: {
-            livenet: {
+            ventas: {
                 provider: 'insight',
                 url: 'http://localhost:3001',
-                prefix: 'insight'
+                apiPrefix: '/insight-api'
+            }
+        },
+
+        ltc: {
+            litecoin: {
+                provider: 'insight',
+                url: 'http://localhost:3001',
+                apiPrefix: '/insight-api'
             }
         },
         bch: {
