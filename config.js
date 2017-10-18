@@ -62,8 +62,8 @@ var config = {
         ltc: {
             litecoin: {
                 provider: 'insight',
-                url: 'http://localhost:3001',
-                apiPrefix: '/insight-api'
+                url: 'http://192.168.0.212:3001',
+                apiPrefix: '/insight-lite-api'
             }
         },
         bch: {
