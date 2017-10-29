@@ -1,7 +1,7 @@
 {
     "apps": [{
             "name": "locker",
-            "script": "locker.js",
+            "script": "locke/locker.js",
             "watch": true,
             "exec_interpreter": "node@6.11.4"
         }, {
@@ -12,12 +12,6 @@
         }, {
             "name": "bcmonitor",
             "script": "bcmonitor/bcmonitor.js",
-            "watch": true,
-            "exec_interpreter": "node@6.11.4"
-        },
-        {
-            "name": "emailservice",
-            "script": "emailservice/emailservice.js",
             "watch": true,
             "exec_interpreter": "node@6.11.4"
         },
