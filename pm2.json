@@ -1,0 +1,43 @@
+{
+    "apps": [{
+            "name": "locker",
+            "script": "locker.js",
+            "watch": true,
+            "exec_interpreter": "node@6.11.4"
+        }, {
+            "name": "broker",
+            "script": "messagebroker/messagebroker.js",
+            "watch": true,
+            "exec_interpreter": "node@6.11.4"
+        }, {
+            "name": "bcmonitor",
+            "script": "bcmonitor/bcmonitor.js",
+            "watch": true,
+            "exec_interpreter": "node@6.11.4"
+        },
+        {
+            "name": "emailservice",
+            "script": "emailservice/emailservice.js",
+            "watch": true,
+            "exec_interpreter": "node@6.11.4"
+        },
+        {
+            "name": "pushnotificationsservice",
+            "script": "pushnotificationsservice/pushnotificationsservice.js",
+            "watch": true,
+            "exec_interpreter": "node@6.11.4"
+        },
+        {
+            "name": "fiatrateservice",
+            "script": "fiatrateservice/fiatrateservice.js",
+            "watch": true,
+            "exec_interpreter": "node@6.11.4"
+        }, {
+            "name": "bws",
+            "script": "bws.js",
+            "watch": true,
+            "exec_interpreter": "node@6.11.4"
+        }
+    ]
+
+}
