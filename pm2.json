@@ -16,13 +16,13 @@
             "exec_interpreter": "node@6.11.4"
         },
         {
-            "name": "pushnotificationsservice",
+            "name": "push",
             "script": "pushnotificationsservice/pushnotificationsservice.js",
             "watch": true,
             "exec_interpreter": "node@6.11.4"
         },
         {
-            "name": "fiatrateservice",
+            "name": "fiat",
             "script": "fiatrateservice/fiatrateservice.js",
             "watch": true,
             "exec_interpreter": "node@6.11.4"
