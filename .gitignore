@@ -35,3 +35,4 @@ db/*
 multilevel/db/*
 
 .idea
+pm2.json
