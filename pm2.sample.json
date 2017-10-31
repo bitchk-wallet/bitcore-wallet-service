@@ -3,7 +3,7 @@
             "name": "locker",
             "script": "locker/locker.js",
             "watch": true,
-            "exec_interpreter": "node@6.11.4",
+            "exec_interpreter": "node@6.11.4"
 
         }, {
             "name": "broker",
