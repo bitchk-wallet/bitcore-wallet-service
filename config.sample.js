@@ -55,11 +55,17 @@ var config = {
         ven: {
             ventas: {
                 provider: 'insight',
-                url: 'http://insight-ven.bitchk.com',
+                url: 'http://insight.ventasnu.com',
                 apiPrefix: '/insight-api'
             }
         },
-
+        yng: {
+            yangcoin: {
+                provider: 'insight',
+                url: 'http://insight-yng.bitchk.com',
+                apiPrefix: '/insight-yng-api'
+            }
+        },
         ltc: {
             litecoin: {
                 provider: 'insight',
@@ -87,22 +93,20 @@ var config = {
         fetchInterval: 60, // in minutes
     },
     // To use email notifications uncomment this:
-    emailOpts: {
-        host: 'localhost',
-        port: 25,
-        ignoreTLS: true,
-        subjectPrefix: '[Wallet Service]',
-        from: 'wallet-service@bitcore.io',
-        templatePath: './lib/templates',
-        defaultLanguage: 'kr',
-        defaultUnit: 'btc',
-        publicTxUrlTemplate: {
-            livenet: 'https://insight.bitpay.com/tx/{{txid}}',
-            ventas: 'https://insight.bitpay.com/tx/{{txid}}',
-            litecoin: 'https://insight.bitpay.com/tx/{{txid}}',
-            testnet: 'https://test-insight.bitpay.com/tx/{{txid}}',
-        },
-    },
+    // emailOpts: {
+    //  host: 'localhost',
+    //  port: 25,
+    //  ignoreTLS: true,
+    //  subjectPrefix: '[Wallet Service]',
+    //  from: 'wallet-service@bitcore.io',
+    //  templatePath: './lib/templates',
+    //  defaultLanguage: 'en',
+    //  defaultUnit: 'btc',
+    //  publicTxUrlTemplate: {
+    //    livenet: 'https://insight.bitpay.com/tx/{{txid}}',
+    //    testnet: 'https://test-insight.bitpay.com/tx/{{txid}}',
+    //  },
+    //},
     //
     // To use sendgrid:
     // var sgTransport = require('nodemail-sendgrid-transport');
