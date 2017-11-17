@@ -47,9 +47,6 @@ var config = {
             testnet: {
                 provider: 'insight',
                 url: 'https://test-insight.bitpay.com:443',
-                // url: 'http://localhost:3001',
-                // Multiple servers (in priority order)
-                // url: ['http://a.b.c', 'https://test-insight.bitpay.com:443'],
             },
         },
         ven: {
@@ -59,10 +56,38 @@ var config = {
                 apiPrefix: '/insight-api'
             }
         },
+        qct: {
+            qctcoin: {
+                provider: 'insight',
+                url: 'https://insight-qct.bitchk.com',
+                apiPrefix: '/insight-qct-api'
+            }
+        },
+        qac: {
+            quasar: {
+                provider: 'insight',
+                url: 'https://insight-qac.bitchk.com',
+                apiPrefix: '/insight-qct-api'
+            }
+        },
+        pax: {
+            paxcoin: {
+                provider: 'insight',
+                url: 'https://insight-pax.bitchk.com',
+                apiPrefix: '/insight-pax-api'
+            }
+        },
+        ssc: {
+            searchcoin: {
+                provider: 'insight',
+                url: 'https://insight-ssc.bitchk.com',
+                apiPrefix: '/insight-ssc-api'
+            }
+        },
         yng: {
             yangcoin: {
                 provider: 'insight',
-                url: 'http://insight-yng.bitchk.com',
+                url: 'https://insight-yng.bitchk.com',
                 apiPrefix: '/insight-yng-api'
             }
         },
