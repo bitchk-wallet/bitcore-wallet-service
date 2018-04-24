@@ -49,41 +49,6 @@ var config = {
                 url: 'https://test-insight.bitpay.com:443',
             },
         },
-        ven: {
-            ventas: {
-                provider: 'insight',
-                url: 'http://insight.ventasnu.com',
-                apiPrefix: '/insight-api'
-            }
-        },
-        qct: {
-            qctcoin: {
-                provider: 'insight',
-                url: 'https://insight-qct.bitchk.com',
-                apiPrefix: '/insight-qct-api'
-            }
-        },
-        qac: {
-            quasar: {
-                provider: 'insight',
-                url: 'https://insight-qac.bitchk.com',
-                apiPrefix: '/insight-qct-api'
-            }
-        },
-        pax: {
-            paxcoin: {
-                provider: 'insight',
-                url: 'https://insight-pax.bitchk.com',
-                apiPrefix: '/insight-pax-api'
-            }
-        },
-        ssc: {
-            searchcoin: {
-                provider: 'insight',
-                url: 'https://insight-ssc.bitchk.com',
-                apiPrefix: '/insight-ssc-api'
-            }
-        },
         yng: {
             yangcoin: {
                 provider: 'insight',
@@ -97,13 +62,7 @@ var config = {
                 url: 'http://insight-ltc.bitchk.com',
                 apiPrefix: '/insight-lite-api'
             }
-        },
-        bch: {
-            livenet: {
-                provider: 'insight',
-                url: 'https://cashexplorer.bitcoin.com',
-            },
-        },
+        }
     },
     pushNotificationsOpts: {
         templatePath: './lib/templates',
